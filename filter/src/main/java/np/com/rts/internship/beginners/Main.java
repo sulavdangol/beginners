@@ -23,6 +23,23 @@ public class Main {
   public Main() {
     // Write your code here
 
+    for (Animal animal:originalList){
+
+      String x =animal.getType();
+      if (x.equals("herbivore")){
+        herbivores.add(animal);
+      }
+      if (x.equals("carnivore")){
+        carnivores.add(animal);
+      }
+      if (x.equals("omnivore")){
+        omnivores.add(animal);
+      }
+
+    }
+
+
+
 
   }
   public static void main(String[] args) {

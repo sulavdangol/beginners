@@ -24,7 +24,10 @@ public class Animal {
   }
 }
 ```
-We have an ArrayList of objects of class Animal. The problem is to filter this single array into multiple arrays, each containing a specific type of animal. For eg, "type" may be "herbivore", "carnivore", "omnivore". So we basically need three new arrays:
+We have an ArrayList of objects of class Animal.
+The problem is to filter this single array into multiple arrays, each containing a specific type of animal.
+ For eg, "type" may be "herbivore", "carnivore", "omnivore".
+So we basically need three new arrays:
 
 ``` java
 ArrayList<Animal> herbivores;

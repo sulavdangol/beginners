@@ -12,7 +12,11 @@ public class Main {
 
   public Main() {
     // Write your code here
+    String[] x=parseThis.split("-");
+    String y = x[2];
+    System.out.println(y);
 
+    value=Double.parseDouble(y);
 
   }
 
